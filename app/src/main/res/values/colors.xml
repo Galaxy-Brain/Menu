@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="strathmoreGold">#CBA052</color>
+    <color name="strathmoreBlue">#3A5DAE</color>
+    <color name="strathmoreRed">#E03C31</color>
+    <color name="strathmoreBlack">#2d2926</color>
+    <color name="css_gray">#808080</color>
+    <color name="grey_black">#5E5E5E</color>
+    <color name="navy_blue">#213240</color>
+</resources>

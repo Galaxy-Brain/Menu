@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/dinner_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/strathmoreBlue"
+            android:paddingBottom="10dp"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/dinner_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/meal_title"
+            android:textSize="16dp"
+            android:textColor="#FFFF00"
+            android:textStyle="bold"
+            android:layout_alignBottom="@id/dinner_image"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:padding="8dp"
+            android:layout_marginTop="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            />
+        <TextView
+            android:id="@+id/dinner_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:textColor="#212121"
+            android:layout_below="@id/dinner_title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:padding="10dp"
+            android:layout_marginTop="4dp"
+            android:drawableStart="@drawable/ic_price_tag"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            />
+        <!--Lets add a horizontal line-->
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/dinner_price"
+            android:background="#84FFFF"
+            />
+        <TextView
+            android:id="@+id/dinner_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/meal_description"
+            android:textColor="#212121"
+            android:layout_below="@id/dinner_price"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:padding="8dp"
+            android:textStyle="italic"
+            android:layout_marginTop="2dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            />
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

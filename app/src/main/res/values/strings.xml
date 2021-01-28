@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">Restaurant App </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_label_1">Breakfast</string>
+    <string name="tab_label_2">Lunch</string>
+    <string name="tab_label_3">Dinner</string>
+    <string name="breakfast_items">Breakfast Items</string>
+    <string name="browse_items">Browse Items</string>
+    <string name="short_description">Short description</string>
+    <string name="meal_description">Meal description</string>
+    <string name="price">Price</string>
+    <string name="meal_title">Meal Title</string>
+    <string name="lunch_items">Lunch Items</string>
+    <string name="dinner_items">Dinner Items</string>
+
+
+    <!-- Breakfast string-->
+    <array name="breakfast_images">
+        <item>@drawable/breakfastdrinks</item>
+        <item>@drawable/bacon</item>
+        <item>@drawable/donuts</item>
+        <item>@drawable/french</item>
+        <item>@drawable/pancake</item>
+        <item>@drawable/egg</item>
+        <item>@drawable/cake</item>
+        <item>@drawable/fruits</item>
+
+    </array>
+    <string-array name="breakfast_title">
+        <item>Breakfast Drinks</item>
+        <item>Bacon</item>
+        <item>Donuts</item>
+        <item>French Toast</item>
+        <item>Pancake</item>
+        <item>Eggs</item>
+        <item>Cake</item>
+        <item>Fruits</item>
+    </string-array>
+
+    <string-array name="breakfast_price">
+        <item>Price : 2</item>
+        <item>Price : 1</item>
+        <item>Price : 5</item>
+        <item>Price : 5</item>
+        <item>Price : 3</item>
+        <item>Price : 1.5</item>
+        <item>Price : 0.5</item>
+        <item>Price : 1</item>
+    </string-array>
+
+    <string-array name="breakfast_description">
+        <item>Balanced Nutritional drinks that are great for breakfast</item>
+        <item>Nicely grilled bacon slices</item>
+        <item>Glazed Donuts with different flavours</item>
+        <item>Freshly made French Toast </item>
+        <item>Pancakes cooked to perfection</item>
+        <item>Fried eggs cooked sunny side up</item>
+        <item>Cakes of Different flavours</item>
+        <item>Freshly picked fruits</item>
+    </string-array>
+
+    <!--Lunch string -->
+    <array name="lunch_images">
+        <item>@drawable/drinks</item>
+        <item>@drawable/chicken</item>
+        <item>@drawable/chips</item>
+        <item>@drawable/porkribs</item>
+        <item>@drawable/pasta</item>
+        <item>@drawable/cake</item>
+        <item>@drawable/fruits</item>
+        <item>@drawable/apple_pie_slice</item>
+
+    </array>
+    <string-array name="lunch_title">
+        <item>Drinks</item>
+        <item>Chicken</item>
+        <item>Chips</item>
+        <item>Pork Ribs</item>
+        <item>Pasta</item>
+        <item>Cake</item>
+        <item>Fruits</item>
+        <item>Apple Pie</item>
+    </string-array>
+
+    <string-array name="lunch_price">
+        <item>Price : 2</item>
+        <item>Price : 1</item>
+        <item>Price : 5</item>
+        <item>Price : 5</item>
+        <item>Price : 3</item>
+        <item>Price : 1.5</item>
+        <item>Price : 0.5</item>
+        <item>Price : 1</item>
+    </string-array>
+
+    <string-array name="lunch_description">
+        <item>Wide Assortment of drinks</item>
+        <item>Roasted Chicken served on a platter</item>
+        <item>Fried crispy chips</item>
+        <item>Grilled Pork Ribs dipped in sauce</item>
+        <item>Italian Pasta with vegetables</item>
+        <item>Wide variety of cakes to choose from</item>
+        <item>Freshly picked and sliced fruits</item>
+        <item>Sweet Sweet apple pie. Fresh apples are used</item>
+    </string-array>
+
+    <!--Dinner string -->
+    <array name="dinner_images">
+        <item>@drawable/drinksdinner</item>
+        <item>@drawable/lemon</item>
+        <item>@drawable/fish</item>
+        <item>@drawable/mutton</item>
+        <item>@drawable/beans</item>
+        <item>@drawable/cake</item>
+        <item>@drawable/wrap</item>
+        <item>@drawable/salad</item>
+
+    </array>
+    <string-array name="dinner_title">
+        <item>Drinks</item>
+        <item>Appetizer</item>
+        <item>Fish</item>
+        <item>Mutton</item>
+        <item>Beans</item>
+        <item>Cake</item>
+        <item>Wrap</item>
+        <item>Salad</item>
+    </string-array>
+
+    <string-array name="dinner_price">
+        <item>Price : 2</item>
+        <item>Price : 1</item>
+        <item>Price : 5</item>
+        <item>Price : 5</item>
+        <item>Price : 3</item>
+        <item>Price : 1.5</item>
+        <item>Price : 0.5</item>
+        <item>Price : 1</item>
+    </string-array>
+
+    <string-array name="dinner_description">
+        <item>Wide Assortment of drinks</item>
+        <item>Appetizers served on a platter</item>
+        <item>Fried crispy Fish with vegetables and lemon slice</item>
+        <item>Grilled mutton with roast potatoes</item>
+        <item>Boiled beans</item>
+        <item>Wide variety of cakes to choose from</item>
+        <item>Chicken wraps with vegetables</item>
+        <item>Vegetable Salad</item>
+    </string-array>
+</resources>
